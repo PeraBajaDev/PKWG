@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=2 format=3 uid="uid://dk6recq5y20to"]
+
+[ext_resource type="Script" uid="uid://jwv5a1145keh" path="res://Pokemon/Scripts/pokemon_resource.gd" id="1_ywhbc"]
+
+[resource]
+script = ExtResource("1_ywhbc")
+metadata/_custom_type_script = "uid://jwv5a1145keh"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3 uid="uid://mkc44bt6q13w"]
+
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://BattleMoves/Scripts/move_resource.gd" id="1_pwd0f"]
+
+[resource]
+script = ExtResource("1_pwd0f")
+name = "tackle"
+power = 40
+power_points_cost = 1
+metadata/_custom_type_script = "uid://dgxndfyv3l1lg"
