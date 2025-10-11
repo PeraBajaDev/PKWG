@@ -3,6 +3,7 @@ class_name PokemonBaseStatsResource
 extends Resource
 
 
+
 const MAX_STATS := 600
 @export var unnused_points: int
 @export_range(1, MAX_STATS, 1) var health_points: int:
