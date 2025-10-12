@@ -4,4 +4,9 @@
 
 [resource]
 script = ExtResource("1_c71t1")
+effectiveness = Dictionary[String, float]({
+"GHOST": 0.0,
+"ROCK": 0.5,
+"STEEL": 0.5
+})
 metadata/_custom_type_script = "uid://bv4x6ps4x1myu"
