@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://mkc44bt6q13w"]
 
-[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://BattleMoves/Scripts/move_resource.gd" id="1_pwd0f"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="1_pwd0f"]
 [ext_resource type="Resource" uid="uid://bba02uoj8ayoe" path="res://Pokemon/Types/Resources/normal.tres" id="2_vwtbk"]
 
 [resource]

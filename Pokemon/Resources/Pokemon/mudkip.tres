@@ -2,7 +2,7 @@
 
 [ext_resource type="Resource" uid="uid://dm7x2n8t7ovfk" path="res://Pokemon/Resources/BaseStats/mudkip_basestats.tres" id="1_k4f53"]
 [ext_resource type="Resource" uid="uid://b2jacosoi3xpx" path="res://Pokemon/Resources/Info/mudkip_info.tres" id="2_cktjy"]
-[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://BattleMoves/Scripts/move_resource.gd" id="3_lopxk"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="3_lopxk"]
 [ext_resource type="Script" uid="uid://jwv5a1145keh" path="res://Pokemon/Scripts/pokemon_resource.gd" id="4_dwcq3"]
 [ext_resource type="Script" uid="uid://bv4x6ps4x1myu" path="res://Pokemon/Types/Scripts/type_resource.gd" id="5_vjsbw"]
 

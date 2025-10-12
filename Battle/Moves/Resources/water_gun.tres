@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dykn5awdp3sqa"]
 
-[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://BattleMoves/Scripts/move_resource.gd" id="1_s5f38"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="1_s5f38"]
 [ext_resource type="Resource" uid="uid://b64cw0fgxxw27" path="res://Pokemon/Types/Resources/water.tres" id="2_pnibj"]
 
 [resource]
