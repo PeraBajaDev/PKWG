@@ -1,10 +1,13 @@
-[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3 uid="uid://dykn5awdp3sqa"]
+[gd_resource type="Resource" script_class="MoveResource" load_steps=3 format=3 uid="uid://dykn5awdp3sqa"]
 
-[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://BattleMoves/Scripts/move_resource.gd" id="1_xfgl3"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://BattleMoves/Scripts/move_resource.gd" id="1_s5f38"]
+[ext_resource type="Resource" uid="uid://b64cw0fgxxw27" path="res://Pokemon/Types/Resources/water.tres" id="2_pnibj"]
 
 [resource]
-script = ExtResource("1_xfgl3")
-name = "tackle"
+script = ExtResource("1_s5f38")
+name = "water gun"
 power = 40
 power_points_cost = 1
+type = ExtResource("2_pnibj")
+category = 1
 metadata/_custom_type_script = "uid://dgxndfyv3l1lg"

@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="PokemonResource" load_steps=2 format=3 uid="uid://dk6recq5y20to"]
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=6 format=3 uid="uid://dk6recq5y20to"]
 
-[ext_resource type="Script" uid="uid://jwv5a1145keh" path="res://Pokemon/Scripts/pokemon_resource.gd" id="1_ywhbc"]
+[ext_resource type="Resource" uid="uid://dm7x2n8t7ovfk" path="res://Pokemon/Resources/BaseStats/mudkip_basestats.tres" id="1_k4f53"]
+[ext_resource type="Resource" uid="uid://b2jacosoi3xpx" path="res://Pokemon/Resources/Info/mudkip_info.tres" id="2_cktjy"]
+[ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://BattleMoves/Scripts/move_resource.gd" id="3_lopxk"]
+[ext_resource type="Script" uid="uid://jwv5a1145keh" path="res://Pokemon/Scripts/pokemon_resource.gd" id="4_dwcq3"]
+[ext_resource type="Script" uid="uid://bv4x6ps4x1myu" path="res://Pokemon/Types/Scripts/type_resource.gd" id="5_vjsbw"]
 
 [resource]
-script = ExtResource("1_ywhbc")
+script = ExtResource("4_dwcq3")
+info = ExtResource("2_cktjy")
+base_stats = ExtResource("1_k4f53")
 metadata/_custom_type_script = "uid://jwv5a1145keh"
