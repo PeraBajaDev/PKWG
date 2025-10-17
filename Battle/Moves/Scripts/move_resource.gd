@@ -9,3 +9,4 @@ enum Category { PHYSIC, SPECIAL, STATUS }
 @export var description: String
 @export var type: TypeResource
 @export var category: Category
+@export var priority: int
