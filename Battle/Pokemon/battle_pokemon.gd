@@ -63,4 +63,4 @@ func apply_damage(amount: int) -> void:
 
 func reduce_power_points(amount: int) -> void:
 	amount = max(amount, 0)
-	_current_power_points = max(_current_health_points - amount, 0)
+	_current_power_points = max(_current_power_points - amount, 0)
