@@ -4,7 +4,7 @@
 [ext_resource type="Resource" uid="uid://561qg1mbanvc" path="res://Pokemon/Resources/BaseStats/zigzagoon_basestats.tres" id="2_dx0jj"]
 [ext_resource type="Resource" uid="uid://ebl3dhuqw0vq" path="res://Pokemon/Resources/Info/zigzagoon_info.tres" id="3_q7gvw"]
 [ext_resource type="Script" uid="uid://dgxndfyv3l1lg" path="res://Battle/Moves/Scripts/move_resource.gd" id="4_xal1r"]
-[ext_resource type="Resource" uid="uid://dykn5awdp3sqa" path="res://Battle/Moves/Resources/water_gun.tres" id="5_wbf6k"]
+[ext_resource type="Resource" uid="uid://dykn5awdp3sqa" path="res://Battle/Moves/Resources/water_gun_move.tres" id="5_wbf6k"]
 [ext_resource type="Resource" uid="uid://mkc44bt6q13w" path="res://Battle/Moves/Resources/tackle_move.tres" id="6_roa45"]
 [ext_resource type="Script" uid="uid://jwv5a1145keh" path="res://Pokemon/Scripts/pokemon_resource.gd" id="7_xs44a"]
 [ext_resource type="Script" uid="uid://bv4x6ps4x1myu" path="res://Pokemon/Types/Scripts/type_resource.gd" id="8_37tnd"]

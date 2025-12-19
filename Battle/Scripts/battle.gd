@@ -19,16 +19,12 @@ func resolve_turn(move_name: String) -> void:
 	var user_move: MoveResource = pokemon_user.moves.filter(by_name).front()
 	var foe_move: MoveResource = pokemon_foe.moves.pick_random()
 
-	# --- Determinar orden ---
-	var user_moves_first := false
-
-	# --- Crear lista de turnos ---
 	var turn_order: Array[Turn] = []
 	turn_order.assign(
 		[
 			Turn.new(pokemon_user, pokemon_foe, user_move),
-			Turn.new(pokemon_foe, pokemon_user, foe_move)
-		]
+			Turn.new(pokemon_foe, pokemon_user, foe_move),
+		],
 	)
 	var by_priority_then_speed := func(a: Turn, b: Turn) -> bool:
 		if a.move.priority == b.move.priority and a.attacker.speed == b.attacker.speed:
@@ -43,18 +39,7 @@ func resolve_turn(move_name: String) -> void:
 		var move: MoveResource = turn.move
 		var attacker: BattlePokemon = turn.attacker
 		var target: BattlePokemon = turn.target
-		var amount: int
-		if attacker.current_power_points <= 0:
-			print(attacker.name, " has no power points!")
-			continue
-		match move.category:
-			move.Category.PHYSIC:
-				amount = (attacker.attack / float(target.defense)) * move.power
-			move.Category.SPECIAL:
-				amount = (attacker.special_attack / float(target.special_defense)) * move.power
-		target.apply_damage(amount)
-		attacker.reduce_power_points(move.power_points_cost)
-		print("Doing damage: ", amount, " from: ", attacker.name, " to: ", target.name)
+		move.effect.apply(target, attacker, move, self)
 	print_info()
 
 
@@ -62,6 +47,7 @@ class Turn:
 	var target: BattlePokemon
 	var attacker: BattlePokemon
 	var move: MoveResource
+
 
 	func _init(_target: BattlePokemon, _attacker: BattlePokemon, _move: MoveResource) -> void:
 		self.target = _target
